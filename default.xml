@@ -2,7 +2,7 @@
 <manifest>
   <remote name="origin" fetch="git@github.com/PotentiaEngine/" />
 
-  <project path="engine" name="Machinam" upstream="origin" />
-  <project path="engine/tools/assetbundler" name="tooling-asset-bundler" upstream="origin" />
-  <project path="engine/tools/gamecodegen" name="tooling-game-codegen" upstream="origin" />
+  <project path="engine" name="Machinam" remote="origin" />
+  <project path="engine/tools/assetbundler" name="tooling-asset-bundler" remote="origin" />
+  <project path="engine/tools/gamecodegen" name="tooling-game-codegen" remote="origin" />
 </manifest>
