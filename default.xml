@@ -2,7 +2,8 @@
 <manifest>
   <remote name="origin" fetch="." />
   <default remote="origin" revision="main" />
-  <project path="engine" name="Machinam" remote="origin" revision="master" />
-  <project path="engine/tools/assetbundler" name="tooling-asset-bundler" remote="origin" />
-  <project path="engine/tools/gamecodegen" name="tooling-game-codegen" remote="origin" />
+
+  <project path="." name="Machinam" remote="origin" revision="master" />
+  <project path="tools/assetbundler" name="tooling-asset-bundler" remote="origin" />
+  <project path="tools/gamecodegen" name="tooling-game-codegen" remote="origin" />
 </manifest>
