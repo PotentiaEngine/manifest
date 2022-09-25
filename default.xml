@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="git@github.com/PotentiaEngine/" />
+  <default remote="origin" revision="main" />
+
+  <project path="engine" name="Machinam" upstream="origin" />
+  <project path="engine/tools/assetbundler" name="tooling-asset-bundler" upstream="origin" />
+  <project path="engine/tools/gamecodegen" name="tooling-game-codegen" upstream="origin" />
+</manifest>
